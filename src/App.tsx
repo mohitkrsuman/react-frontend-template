@@ -34,7 +34,7 @@ function AppContent() {
         <div className="grid gap-6">
           <div className="card">
             <h2 className="text-xl font-semibold mb-2">Welcome!</h2>
-            <p className="text-primary">SFX app</p>
+            <p className="text-primary">New app</p>
           </div>
         </div>
       </main>
