@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-tracking-number {
+    @apply font-mono text-tracking font-medium tracking-wide;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-data-table {
+    @apply font-sans text-data font-normal;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-form-label {
+    @apply font-sans text-label font-semibold uppercase tracking-wider text-gray-700;
+  }
+
+  .text-status-badge {
+    @apply font-sans text-status font-bold uppercase tracking-widest;
+  }
+
+  .text-dashboard-metric {
+    @apply font-mono text-2xl font-bold tracking-tight;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-vehicle-id {
+    @apply font-mono text-base font-semibold tracking-wide;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .text-company-name {
+    @apply font-display text-xl font-bold tracking-tight;
+  }
+
+  .text-professional-body {
+    @apply font-body text-base leading-relaxed text-gray-700;
+  }
+}
+
+@layer utilities {
+  .text-responsive-heading {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+
+  .text-responsive-body {
+    @apply text-sm sm:text-base;
+  }
+
+  .text-responsive-caption {
+    @apply text-xs sm:text-sm;
+  }
+}
